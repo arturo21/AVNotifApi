@@ -76,7 +76,7 @@ notifapi=(function(global,factory){
 	};
 return{
     notif:function(detalles){
-		//notif(mensaje,[tipo,función,tiempo]);
+		//notif(mensaje,[tipo,callback,tiempo]);
 		let argsjs=detalles;
 		let iftimer=0;
 		let iffunction=0;
@@ -101,9 +101,9 @@ return{
 			tipo="primary";
 		}
 
-		if(argsjs.funcion!=undefined){
+		if(argsjs.callback!=undefined){
 			iffunction=1;
-			callback=argsjs.funcion;
+			callback=argsjs.callback;
 		}
 
 		if(argsjs.tiempo!=undefined){

@@ -12,15 +12,17 @@
 			genrl.run(function(){
 				notifapi.notif({
 					mensaje:"Esto es Una prueba",
-					tipo:"danger"
+					tipo:"danger",
+					callback:function(){
+						genrl.log("Finalizado");
+					}
 				});
-				console.log("HOLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
 				notifapi.notif({
 					mensaje:"Esto es Una prueba",
 					tipo:"success",
 					tiempo:1000,
-					funcion:function(){
-						console.log("Finalizado");
+					callback:function(){
+						genrl.log("Finalizado");
 					}
 				});
 			});
