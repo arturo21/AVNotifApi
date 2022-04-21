@@ -1,6 +1,15 @@
 # NotifApi
 API para notificaciones basado en CSS bulma y General.JS
 
+## Tipos de Notificaciones
+
+* primary
+* link
+* info
+* success
+* warning
+* danger
+
 ## Ejemplo de Uso
 
 ### Notificación Fija
