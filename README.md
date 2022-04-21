@@ -1,9 +1,9 @@
 # NotifApi
 API para notificaciones basado en CSS bulma y General.JS
 
-##Ejemplo de Uso
+## Ejemplo de Uso
 
-###Notificación Fija
+### Notificación Fija
 ```javascript
 	notifapi.notif({
 		mensaje:"Esto es Una prueba",
@@ -11,7 +11,7 @@ API para notificaciones basado en CSS bulma y General.JS
 	});
 ```
 
-###Notificación Temporal 
+### Notificación Temporal 
 #### Se desvanece en N milisegundos
 ```javascript
 	notifapi.notif({
