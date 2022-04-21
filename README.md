@@ -14,7 +14,7 @@ API para notificaciones basado en CSS bulma y General.JS
 
 ## Para el correcto funcionamiento debes importar los CSS de Bulma
 ```html
-		<link rel="stylesheet" href="https://cdn.underdevelopment.work/bulma/css/bulma.min.css">
+	<link rel="stylesheet" href="https://cdn.underdevelopment.work/bulma/css/bulma.min.css">
 ```
 
 ## Ejemplo de Uso
