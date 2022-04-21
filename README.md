@@ -18,7 +18,10 @@ API para notificaciones basado en CSS bulma y General.JS
 ```javascript
 	notifapi.notif({
 		mensaje:"Esto es Una prueba",
-		tipo:"danger"
+		tipo:"danger",
+		callback:function(){
+			console.log("Finalizado");
+		}
 	});
 ```
 
@@ -29,7 +32,7 @@ API para notificaciones basado en CSS bulma y General.JS
 		mensaje:"Esto es Una prueba",
 		tipo:"success",
 		tiempo:1000,
-		funcion:function(){
+		callback:function(){
 			console.log("Finalizado");
 		}
 	});
