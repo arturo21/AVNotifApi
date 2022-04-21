@@ -15,7 +15,7 @@
   GARANTÍAS DE COMERCIALIZACIÓN Y APTITUD PARA UN PROPÓSITO PARTICULAR.
 */
 /************************************************/
-/**********************AJAX API*****************/
+/**********************NOTIF API*****************/
 /************************************************/
 notifapi=(function(global,factory){
 	//write code below
