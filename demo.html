@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="https://cdn.underdevelopment.work/bulma/css/bulma.min.css">
+		<title>Prueba g.js</title>
+	</head>
+	<body>
+		<script src="https://cdn.underdevelopment.work/generaljs/general.min.js"></script>
+		<script src="notifapi.js"></script>
+		<script>
+			//GENERAL.JS CODING
+			genrl.run(function(){
+				notifapi.notif({
+					mensaje:"Esto es Una prueba",
+					tipo:"danger"
+				});
+				console.log("HOLAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
+				notifapi.notif({
+					mensaje:"Esto es Una prueba",
+					tipo:"success",
+					tiempo:1000,
+					funcion:function(){
+						console.log("Finalizado");
+					}
+				});
+			});
+		</script>
+		<script>
+		</script>
+	</body>
+</html>
