@@ -11,16 +11,43 @@
 			//GENERAL.JS CODING
 			genrl.run(function(){
 				notifapi.notif({
-					mensaje:"Esto es Una prueba",
-					tipo:"danger",
+					mensaje:"Esta es una notificación tipo Primary",
+					tipo:"primary",
 					callback:function(){
 						genrl.log("Finalizado");
 					}
 				});
 				notifapi.notif({
-					mensaje:"Esto es Una prueba",
+					mensaje:"Esta es una notificación tipo Link",
+					tipo:"link",
+					callback:function(){
+						genrl.log("Finalizado");
+					}
+				});
+				notifapi.notif({
+					mensaje:"Esta es una notificación tipo Info",
+					tipo:"info",
+					callback:function(){
+						genrl.log("Finalizado");
+					}
+				});
+				notifapi.notif({
+					mensaje:"Esta es una notificación tipo Success",
 					tipo:"success",
-					tiempo:1000,
+					callback:function(){
+						genrl.log("Finalizado");
+					}
+				});
+				notifapi.notif({
+					mensaje:"Esta es una notificación tipo Warning",
+					tipo:"warning",
+					callback:function(){
+						genrl.log("Finalizado");
+					}
+				});
+				notifapi.notif({
+					mensaje:"Esta es una notificación tipo Danger",
+					tipo:"danger",
 					callback:function(){
 						genrl.log("Finalizado");
 					}
