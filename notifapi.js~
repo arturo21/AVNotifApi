@@ -112,7 +112,8 @@ return{
 			container=argsjs.container;
 		}
 		else{
-			}
+			genrl.error("DEBES INCLUIR EL CONTAINER!");
+		}
 
 		if(argsjs.tiempo!=undefined){
 			iftimer=1;
@@ -129,6 +130,9 @@ return{
 					function desvanecer(){
 						g("#" + idmensaje).animate('fadeOut',tiempo,function(){
 							genrl.log("Finished");
+							elemppl=g("#" + idmensaje).getEl();
+							ele=wincontent.parentNode;
+							wincontent.remove(ele);
 						});
 					}
 					setTimeout(desvanecer,tiempo);

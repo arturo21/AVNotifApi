@@ -130,6 +130,9 @@ return{
 					function desvanecer(){
 						g("#" + idmensaje).animate('fadeOut',tiempo,function(){
 							genrl.log("Finished");
+							elemppl=g("#" + idmensaje).getEl();
+							ele=elemppl.parentNode;
+							elemppl.remove(ele);
 						});
 					}
 					setTimeout(desvanecer,tiempo);
