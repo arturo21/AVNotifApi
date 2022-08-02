@@ -1,0 +1,27 @@
+{
+  "name": "notifapi.js",
+  "version": "0.0.1",
+  "description": "A Notification plugin for General.JS",
+  "main": "notifapi.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arturo21/NotifApi.git"
+  },
+  "keywords": [
+    "notifications",
+    "notification",
+    "heneral.js",
+    "gnrl.js",
+    "general",
+    "notifapi"
+  ],
+  "author": "Arturo Vásquez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arturo21/NotifApi/issues"
+  },
+  "homepage": "https://github.com/arturo21/NotifApi#readme"
+}

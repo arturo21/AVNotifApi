@@ -27,7 +27,6 @@ API para notificaciones basado en CSS bulma y General.JS
 ### Notificación Fija
 ```javascript
 	notifapi.notif({
-		container:"#mydiv",
 		mensaje:"Esto es Una prueba",
 		tipo:"danger",
 		callback:function(){
@@ -40,7 +39,6 @@ API para notificaciones basado en CSS bulma y General.JS
 #### Se desvanece en N milisegundos
 ```javascript
 	notifapi.notif({
-		container:"#mydiv",
 		mensaje:"Esto es Una prueba",
 		tipo:"success",
 		tiempo:1000,
