@@ -21,16 +21,17 @@ notifapi=(function(global,factory){
 	//write code below
 	function buildbody(mensaje,tipo){
 		//tipos: primary, link, info, success, warning, danger
-		let firstNow = performance.now();
-		let final = (firstNow * 27)
+		let firstNow_ = performance.now();
+		let firstNow = parseInt(firstNow_);
+		let final = (firstNow * 27);
 		let divp=genrl.getCreate("div");
 		let divh=genrl.getCreate("div");
 		let btncerrar=genrl.getCreate("button");
 		let span=genrl.getCreate("span");
 		let clasecss="";
 
-		divp.id="divpadre" + final
-		divp.name="divpadre" + final
+		divp.id="divpadre" + final;
+		divp.name="divpadre" + final;
 		divp.classList.add("notification");
 		if(tipo=="primary"){
 			clasecss="is-primary";
