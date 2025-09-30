@@ -1,5 +1,5 @@
 /*
-  Copyright (C) 2022 Arturo Vasquez Soluciones Web.
+  Copyright (C) 2025 Arturo Vasquez Soluciones Web.
   Todos los derechos reservados.
 
   La redistribución y uso en formatos fuente y binario están permitidas
@@ -17,7 +17,7 @@
 /************************************************/
 /**********************NOTIF API*****************/
 /************************************************/
-notifapi=(function(global,factory){
+var notifapi=(function(global){
 	//write code below
 	function buildbody(mensaje,tipo){
 		//tipos: primary, link, info, success, warning, danger
